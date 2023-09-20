@@ -48,7 +48,7 @@ EXCEPTION
 END;
 /
 In the above code, you need to have a table called subscription_dates that stores the subscription dates for each subscription_id. You also need a table called members that stores the members' details, including their start_date and end_date for each subscription.
-
+-[@Mihajlo88](https://github.com/Mihajlo88/)
 To use the function, you can call it with the subscription_id and the check_date parameters. It will return the count of members covered by the subscription on that specific date.
 
 Example usage:
