@@ -6,6 +6,7 @@ IS
     v_member_count NUMBER := 0;
     v_previous_date DATE;
     v_next_date DATE;
+    this is the backround
 BEGIN
     -- Get the previous date with coverage
     SELECT MAX(subscription_date)
