@@ -9,7 +9,7 @@ IS
 BEGIN
     -- Get the previous date with coverage
     SELECT MAX(subscription_date)
-    INTO v_previous_date
+    INTO v_previous_date_new_again
     FROM subscription_dates
     WHERE subscription_id = p_subscription_id AND subscription_date <= p_check_date;
 
